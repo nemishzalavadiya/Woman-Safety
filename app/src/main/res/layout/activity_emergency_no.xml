@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="200px"
+    android:layout_centerVertical="true"
+    android:padding="16dp"
+    tools:context=".emergency_no">
+
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NAME:- "
+        android:textSize="24sp"
+        android:textStyle="normal|bold"/>
+
+
+    <EditText
+        android:id="@+id/editText_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText_name"
+        android:hint="MOBILE NO:- "
+        android:inputType="number"
+        android:maxLength="10"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"/>
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/editText_mobile"
+        android:layout_centerHorizontal="true"
+        android:text="Add Data"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"/>
+
+
+    <Button
+        android:id="@+id/button_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_add"
+        android:layout_centerHorizontal="true"
+        android:text="Update"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
+        />
+
+
+    <Button
+        android:id="@+id/button_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_update"
+        android:layout_centerHorizontal="true"
+        android:text="Delete"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"/>
+
+    <Button
+        android:id="@+id/button_viewAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_delete"
+        android:layout_centerHorizontal="true"
+        android:text="View"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"/>
+
+    <Button
+        android:id="@+id/button_deleteAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_viewAll"
+        android:layout_centerHorizontal="true"
+        android:text="Delete All"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"/>
+
+</RelativeLayout>

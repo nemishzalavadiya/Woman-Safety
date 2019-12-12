@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <string name="help">\n\t\tPLEASE FOLLOW THE INSTRUCTIONS TO USE \n\t\tTHE APPLICATION:- \n\n\n\t1: ENTER EMERGENCY CONTACTS AND SAVE \n\t\t\t WHO CAN HELP YOU IN CASE OF \n\t\t\t EMERGENCY.\n\n\t2: MAKE SURE OF WORKING INTERNET IN \n\t\t\t YOUR DEVICE.\n\n\t3: PRESS 5 TIMES POWER BUTTON TO INVOKE \n\t\t\t EMERGENCY ON APP.\n\t\n\n\n\n\tLETS START NOW!</string>
+</resources>

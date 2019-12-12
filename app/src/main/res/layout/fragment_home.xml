@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_message"
+        android:layout_width="400dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/averia_serif_libre_bold"
+        android:text="WELCOME TO \nNIRBHAYA \n(WOMEN SAFETY APP) "
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="35sp"
+        android:textStyle="bold|normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="316dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="50dp"
+        android:text="EMERGENCY MODE"
+        android:textStyle="bold|normal"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/belgrano"
+        android:text="ABSTRACT "
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold|normal" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="monospace"
+        android:text="The safety of women is a concern of increasing urgency in India and other countries. We introduces a mobile application called NIRBHAYA (Women's Safety App) that provides women with a reliable way to place an emergency message and call which is immediately sent to the police, family, friends who can help the one in dangerous situations. The user can easily and discreetly trigger emergency by pressing 5 times Power Button on her phone, it will work only when in application via on of a PANIC/Emergency button on the screen. A message containing the geographical location of the user through GPS and sends a message comprising this location URL, as well as contact details of a pre-selected list of emergency contacts. "
+        android:textColor="#000000"
+        android:textSize="14sp"
+        />
+
+
+
+
+    </LinearLayout>
+

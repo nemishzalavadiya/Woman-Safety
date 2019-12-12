@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_action_home"
+            android:title="HOME" />
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/ic_group_add_black_24dp"
+            android:title="EMERGENCY CONTACTS" />
+        <item
+            android:id="@+id/nav_gps"
+            android:icon="@drawable/ic_gps_fixed_black_24dp"
+            android:title="GPS LOCATION" />
+        <item
+            android:id="@+id/nav_instruction"
+            android:icon="@drawable/ic_report_black_24dp"
+            android:title="INSTRUCTIONS" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="SETTINGS" />
+    </group>
+
+    <item android:title="COMMUNICATE">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_people_black_24dp"
+                android:title="ABOUT US" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_contact_phone_black_24dp"
+                android:title="CONTACT US" />
+        </menu>
+    </item>
+
+</menu>
